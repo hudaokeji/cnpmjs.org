@@ -1,10 +1,6 @@
 {
   "name": "dao-npm-registry",
-  "version": "3.0.0-alpha.15",
-  "forked-name":"cnpmjs.org",
-  "forked-version": "3.0.0-alpha.15",
-  "description": "Private npm registry service",
-  "forked-description": "Private npm registry and web for Enterprise, base on MySQL and Simple Store Service",
+  "version": "0.9.0",
   "main": "index.js",
   "scripts": {
     "dev": "DEBUG=cnpm* node dispatch.js",
@@ -88,17 +84,16 @@
     "supertest": "2",
     "thunk-mocha": "1"
   },
-  "homepage": "https://github.com/cnpm/cnpmjs.org",
+  "homepage": "https://github.com/hudaokeji/dao-npm-registry",
   "repository": {
     "type": "git",
-    "url": "git://github.com/cnpm/cnpmjs.org.git",
-    "web": "https://github.com/cnpm/cnpmjs.org"
+    "url": "git://github.com/hudaokeji/dao-npm-registry.git",
+    "web": "https://github.com/hudaokeji/dao-npm-registry"
   },
   "bugs": {
-    "url": "https://github.com/cnpm/cnpmjs.org/issues"
+    "url": "https://github.com/hudaokeji/dao-npm-registry/issues"
   },
   "keywords": [
-    "cnpmjs.org",
     "npm",
     "npmjs",
     "npmjs.org",
@@ -107,9 +102,31 @@
   "engines": {
     "node": ">= 6.11.2"
   },
-  "author": [
-    "fengmk2 <fengmk2@gmail.com> (http://fengmk2.com)",
-    "dead_horse <dead_horse@qq.com> (http://deadhorse.me)"
-  ],
-  "license": "MIT"
+  "license": "MIT",
+  "forked" : {
+    "name":"cnpmjs.org",
+    "version": "3.0.0-alpha.15",
+    "description": "Private npm registry and web for Enterprise, base on MySQL and Simple Store Service",
+    "homepage": "https://github.com/cnpm/cnpmjs.org",
+    "repository": {
+      "type": "git",
+      "url": "git://github.com/cnpm/cnpmjs.org.git",
+      "web": "https://github.com/cnpm/cnpmjs.org"
+    },
+    "bugs": {
+      "url": "https://github.com/cnpm/cnpmjs.org/issues"
+    },
+    "keywords": [
+      "cnpmjs.org",
+      "npm",
+      "npmjs",
+      "npmjs.org",
+      "registry"
+    ],
+    "author": [
+      "fengmk2 <fengmk2@gmail.com> (http://fengmk2.com)",
+      "dead_horse <dead_horse@qq.com> (http://deadhorse.me)"
+    ],
+    "license": "MIT"
+  }
 }
